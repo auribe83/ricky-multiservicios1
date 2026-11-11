@@ -13,13 +13,13 @@ export function ContactForm() {
     const form = new FormData(formElement);
     setSending(true); setStatus("");
     try {
-      const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...Object.fromEntries(form), ...(confirmed ? { servicio: service, tipoEspacio: space, zona: zone } : {}) }) });
+      const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...Object.fromEntries(form), privacidad: form.get("privacidad") === "on", ...(confirmed ? { servicio: service, tipoEspacio: space, zona: zone } : {}) }) });
       if (response.ok) {
         formElement.reset();
         reset();
-        setStatus("Formulario validado. Para coordinar tu visita, contáctanos por teléfono o WhatsApp.");
+        setStatus("Solicitud recibida. Te contactaremos para coordinar la visita.");
       } else {
-        setStatus("Revisa los campos obligatorios e inténtalo de nuevo.");
+        setStatus(response.status === 400 ? "Revisa los campos obligatorios e inténtalo de nuevo." : "No pudimos guardar tu solicitud. Inténtalo de nuevo o contáctanos por teléfono o WhatsApp.");
       }
     } catch {
       setStatus("No se pudo conectar. Inténtalo de nuevo.");
