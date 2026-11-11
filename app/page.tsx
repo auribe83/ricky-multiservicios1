@@ -8,6 +8,7 @@ import { ContactForm } from "./contact-form";
 import { RequestPlanner } from "./request-planner";
 import { RequestProvider } from "./request-context";
 import "./request-flow.css";
+import "./proceso.css";
 
 const services = [
   { title: "Plomería especializada", copy: "Filtraciones, destapes, piezas sanitarias y revisión de bombas de agua.", icon: IconDroplet },
@@ -16,11 +17,11 @@ const services = [
   { title: "Arreglos generales", copy: "Pintura, cerraduras, montaje y reparaciones menores en el hogar o local.", icon: IconTool }
 ];
 
-const benefits = [
-  ["Presupuesto antes de empezar", "Confirmamos el presupuesto antes de iniciar el trabajo."],
-  ["Varios pendientes en una visita", "Indica todo lo que necesitas para revisar la atención en el mismo turno."],
-  ["Reporte visual de avances", "Compartimos fotos antes, durante y después del trabajo."],
-  ["Área limpia al finalizar", "El equipo deja el área atendida en orden al terminar."]
+const steps = [
+  { title: "Cuéntanos qué necesitas", copy: "Describe el problema y coordinamos contigo la visita.", image: "/images/proceso-01-consulta.webp", alt: "Ilustración de una clienta explicando una filtración por teléfono" },
+  { title: "Revisamos y presupuestamos", copy: "Revisamos el trabajo y confirmamos el presupuesto antes de empezar.", image: "/images/proceso-02-presupuesto.webp", alt: "Ilustración de un técnico conversando con una clienta sobre el presupuesto" },
+  { title: "Realizamos el trabajo", copy: "Atendemos la reparación y compartimos fotos de los avances.", image: "/images/proceso-03-trabajo.webp", alt: "Ilustración de un técnico reparando una tubería bajo el fregadero" },
+  { title: "Revisamos el resultado", copy: "Compartimos el resultado y dejamos el área atendida en orden.", image: "/images/proceso-04-resultado.webp", alt: "Ilustración de un técnico mostrando una reparación terminada" }
 ];
 
 const reviews = [
@@ -67,8 +68,8 @@ export default function Home() {
     </div></section>
 
     <section id="proceso" className="section"><div className="shell">
-      <div className="centered-intro"><p className="eyebrow">Cómo trabajamos</p><h2>Información clara en cada visita</h2><p>Un proceso simple para conocer el trabajo antes de empezar.</p></div>
-      <div className="benefit-grid">{benefits.map(([title, copy], index) => <article className="benefit-card" key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{copy}</p></article>)}</div>
+      <div className="centered-intro"><p className="eyebrow">Cómo trabajamos</p><h2>Así coordinamos tu visita</h2><p>Desde tu solicitud hasta la revisión del trabajo terminado.</p></div>
+      <div className="process-grid">{steps.map(({ title, copy, image, alt }, index) => <article className="process-card" key={title}><div className="process-image"><Image src={image} alt={alt} fill sizes="(max-width: 640px) 100vw, (max-width: 940px) 50vw, 25vw" /></div><div className="process-content"><span className="process-number">{index + 1}</span><div><h3>{title}</h3><p>{copy}</p></div></div></article>)}</div><div className="process-action"><a className="button button-primary" href="#solicitud">Solicitar visita</a></div>
     </div></section>
 
     <section id="solicitud" className="section planner-section"><div className="shell">
