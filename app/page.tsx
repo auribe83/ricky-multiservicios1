@@ -6,6 +6,8 @@ import {
 } from "@tabler/icons-react";
 import { ContactForm } from "./contact-form";
 import { RequestPlanner } from "./request-planner";
+import { RequestProvider } from "./request-context";
+import "./request-flow.css";
 
 const services = [
   { title: "Plomería especializada", copy: "Filtraciones, destapes, piezas sanitarias y revisión de bombas de agua.", icon: IconDroplet },
@@ -28,7 +30,7 @@ const reviews = [
 ];
 
 export default function Home() {
-  return <main>
+  return <RequestProvider><main>
     <a className="skip-link" href="#contenido">Saltar al contenido</a>
     <header className="site-header">
       <div className="shell nav-shell">
@@ -80,10 +82,10 @@ export default function Home() {
     </div></section>
 
     <section id="contacto" className="section"><div className="shell contact-layout">
-      <div className="contact-copy"><p className="eyebrow">Agenda tu visita</p><h2>Cuéntanos qué necesitas</h2><p>Para una visita programada, completa el formulario. En una emergencia, llama directamente a la línea de atención.</p><div className="emergency-panel"><IconFlame size={24} /><div><b>¿Es una emergencia?</b><p>Para una tubería rota, apagón o cortocircuito, llama ahora.</p></div><a className="button button-primary" href="tel:+582126457905"><IconPhone size={18} />0212-645-79-05</a></div><div className="contact-details"><p><b>Horario regular</b>Lunes a viernes de 8:00 a. m. a 5:00 p. m.<br />Sábados de 8:00 a. m. a 1:00 p. m.</p><p><b>Ubicación</b>Avenida Este 2, frente a la Plaza La Candelaria, Edificio Candelaria Centro, Planta Baja, Local 4, Caracas.</p></div></div>
+      <div className="contact-copy"><p className="eyebrow">Agenda tu visita</p><h2>Cuéntanos qué necesitas</h2><p>Para una visita programada, completa el formulario. En una emergencia, llama directamente a la línea de atención.</p><div className="emergency-panel"><IconFlame size={24} /><div><b>¿Es una emergencia?</b><p>Para una tubería rota, apagón o cortocircuito, llama ahora.</p></div><a className="button button-primary" href="tel:+582126457905"><IconPhone size={18} />0212-645-79-05</a></div><div className="contact-details"><p><b>Horario regular</b>Lunes a viernes de 8:00 a. m. a 5:00 p. m.<br />Sábados de 8:00 a. m. a 1:00 p. m.</p><p><b>Ubicación</b>Avenida Este 2, frente a la Plaza La Candelaria, Edificio Candelaria Centro, Planta Baja, Local 4, Caracas.</p></div><div className="map-card"><iframe title="Ubicación de Ricky Multiservicios en Caracas" src="https://www.google.com/maps?q=Avenida%20Este%202%2C%20La%20Candelaria%2C%20Caracas&output=embed" loading="lazy" referrerPolicy="no-referrer-when-downgrade" /><a className="map-link" href="https://www.google.com/maps/search/?api=1&query=Avenida%20Este%202%2C%20La%20Candelaria%2C%20Caracas" target="_blank" rel="noreferrer"><IconMapPin size={16} />Cómo llegar</a></div></div>
       <ContactForm />
     </div></section>
 
     <footer><div className="shell footer-grid"><div><Image src="/images/logo-ricky-multiservicios.png" alt="Ricky Multiservicios" width={186} height={52} /><p>Mantenimiento preventivo y reparaciones de emergencia en Caracas.</p></div><div><b>Contacto</b><a href="tel:+582126457905">0212-645-79-05</a><a href="https://wa.me/584143728363">WhatsApp 0414-372-83-63</a><a href="mailto:auribe.infosoft@gmail.com">auribe.infosoft@gmail.com</a></div><div><b>Enlaces</b><a href="/aviso-legal/">Aviso legal</a><a href="/politica-de-privacidad/">Política de privacidad</a><a href="/politica-de-cookies/">Política de cookies</a></div></div></footer>
-  </main>;
+  </main></RequestProvider>;
 }
