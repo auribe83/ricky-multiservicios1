@@ -61,10 +61,25 @@ La conexión con Airtable se probó en el servidor local. Para la web publicada 
 
 ## Precios y pagos
 
-- **Precios y tarifas:** pendientes de confirmar. No inventar montos ni cotizaciones.
+- **Tarifas propias de Ricky Multiservicios:** pendientes de confirmar. Las referencias de mercado de la siguiente sección no son precios, ofertas ni presupuestos de Ricky.
 - **Costo de visita, recargos por urgencia y condiciones del presupuesto:** pendientes de confirmar.
 - **Medios de pago y facturación:** pendientes de confirmar.
 - Cuando pregunten por un precio, indicar que deben describir el trabajo para que el equipo revise y confirme el presupuesto.
+
+### Referencias orientativas de mercado
+
+Investigación consultada el 11 de noviembre de 2026. Son ejemplos publicados, basados en una muestra pequeña; no representan necesariamente el precio habitual de todo Caracas ni las tarifas de Ricky. Los importes están expresados en dólares estadounidenses por la unidad indicada. El precio puede variar según la falla, el acceso, la zona y la urgencia. Si no se indica si incluye materiales, traslado o impuestos, estos conceptos están por confirmar.
+
+| Servicio consultado | Referencia publicada | Fecha y alcance de la evidencia |
+|---|---:|---|
+| Destape de lavamanos, lavaplatos o ducha | 20 a 30 USD por servicio | Compilación de 2026 para Caracas, con dos fuentes; condiciones y materiales por confirmar. [Referencia sobre destapes](https://empresas.todoresuelto.com/ve/precios/destapes). |
+| Cambio de grifería o piezas sanitarias | 20 a 30 USD por trabajo | Referencia de mano de obra recogida en una compilación de noviembre de 2026; materiales por confirmar. [Referencia sobre plomería](https://empresas.todoresuelto.com/ve/cuanto-cuesta/plomero). |
+| Electricidad: revisión de varios puntos | 10 a 20 USD por revisión | Dato publicado en Caracas en julio de 2024. Es histórico y no confirma precios vigentes en 2026. [Referencia sobre electricidad](https://2001online.com/servicios/caracas-los-electricistas-a-domicilio-revelan-sus-tarifas-vigentes-montos/amp). |
+| Electricidad: cambio de tomacorriente | 10 USD por unidad | Dato publicado en Caracas en julio de 2024. Es histórico; repuestos y precio vigente por confirmar. [Referencia sobre electricidad](https://2001online.com/servicios/caracas-los-electricistas-a-domicilio-revelan-sus-tarifas-vigentes-montos/amp). |
+| Climatización: mantenimiento de aire acondicionado residencial | 20 a 60 USD por equipo | Ejemplos publicados en Caracas en abril de 2026 para diferentes equipos y capacidades; el alcance del mantenimiento varía. [Referencia sobre climatización](https://2001online.com/servicios/por-caloron-revisan-aires-acondicionados-conozca-el-precio-del-mantenimiento-y-las-piezas-que-mas-se-danan-20264229300). |
+| Pintura interior | 3 a 6 USD por m² | Compilación nacional de noviembre de 2026; no es una medición exclusiva de Caracas. Preparación de superficie y materiales por confirmar. [Referencia sobre pintura](https://empresas.todoresuelto.com/ve/blog/cuanto-cobra-un-pintor-en-caracas-y-venezuela). |
+
+**Cómo debe responder el asistente:** si preguntan por costos, puede compartir la referencia de mercado correspondiente y su fecha, aclarando que no es una tarifa de Ricky ni un presupuesto. Para electricidad debe indicar que los datos son de 2024 y pueden estar desactualizados. Si preguntan cuánto cobra Ricky, si se incluyen materiales o por un trabajo sin referencia verificable, debe indicar que el precio se confirma tras evaluar el caso y ofrecer el teléfono 0212-645-79-05. No inventar montos para cableado, recarga de gas, montaje o reparaciones generales.
 
 ## Plazos y disponibilidad
 
@@ -82,7 +97,7 @@ La conexión con Airtable se probó en el servidor local. Para la web publicada 
 
 ## Orientación para el futuro asistente
 
-- Responder en español de forma sencilla y basarse en la información confirmada de este documento.
+- Responder en español de forma sencilla y basarse en la información confirmada de este documento. Las referencias de mercado publicadas se pueden comunicar con sus condiciones y fecha, sin atribuirlas como tarifas propias de Ricky ni identificar a proveedores concretos.
 - Si falta un dato, decir que debe confirmarlo el equipo y ofrecer los canales de contacto. No inventar precios, garantías, certificaciones, tiempos de llegada, disponibilidad ni condiciones.
 - Ante una urgencia, indicar que llame al 0212-645-79-05. No afirmar que una visita ya está confirmada ni sustituir a los servicios públicos de emergencia cuando exista peligro inmediato.
 - Solo recopilar los datos necesarios para atender la solicitud y explicar su uso conforme a la política de privacidad vigente. No solicitar contraseñas, datos bancarios ni información innecesaria.
