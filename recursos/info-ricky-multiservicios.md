@@ -61,10 +61,42 @@ La conexión con Airtable se probó en el servidor local. Para la web publicada 
 
 ## Precios y pagos
 
-- **Tarifas propias de Ricky Multiservicios:** pendientes de confirmar. Las referencias de mercado de la siguiente sección no son precios, ofertas ni presupuestos de Ricky.
-- **Costo de visita, recargos por urgencia y condiciones del presupuesto:** pendientes de confirmar.
+- **Tarifas propias:** el usuario aprobó la lista de servicios y precios de la sección siguiente el 11 de noviembre de 2026.
+- **Visita de revisión general:** 20 USD, descontables del trabajo si el cliente lo aprueba. Las revisiones específicas que tienen precio en la tabla se cobran según la tabla. Los recargos por urgencia están pendientes de confirmar.
 - **Medios de pago y facturación:** pendientes de confirmar.
-- Cuando pregunten por un precio, indicar que deben describir el trabajo para que el equipo revise y confirme el presupuesto.
+- Al comunicar una tarifa, incluir su alcance y explicar las condiciones aplicables. El equipo confirma cualquier trabajo adicional antes de comenzarlo.
+
+### Tarifas de Ricky Multiservicios aprobadas
+
+Los precios cubren mano de obra para trabajos sencillos y accesibles. Piezas, materiales, pintura, refrigerante y soportes se cobran aparte. Si se requiere romper paredes, usar equipos especiales o hacer reparaciones adicionales, el equipo presentará otro presupuesto antes de comenzar. Tarifas en USD; el equivalente en bolívares se calcula con la tasa del día si está disponible.
+
+| Servicio | Precio USD | Unidad |
+|---|---:|---|
+| Destape sencillo de lavamanos, lavaplatos o ducha | 25 | por servicio |
+| Cambio de grifería existente | 25 | por trabajo |
+| Cambio de sifón debajo de lavamanos o lavaplatos | 20 | por trabajo |
+| Cambio de llave de paso accesible | 25 | por trabajo |
+| Reparación de fuga en conexión visible | 30 | por trabajo |
+| Revisión de bomba de agua | 20 | por revisión |
+| Revisión de hasta tres puntos eléctricos | 20 | por revisión |
+| Cambio de un tomacorriente existente | 15 | por unidad |
+| Cambio de un interruptor existente | 15 | por unidad |
+| Instalación de una lámpara en punto existente | 20 | por unidad |
+| Cambio de un interruptor de protección en tablero | 25 | por unidad |
+| Revisión inicial de un cortocircuito | 25 | por revisión |
+| Revisión de aire acondicionado residencial | 20 | por revisión |
+| Mantenimiento de aire tipo split hasta 18.000 BTU | 30 | por equipo |
+| Mantenimiento de aire tipo ventana hasta 18.000 BTU | 35 | por equipo |
+| Limpieza de desagüe de aire acondicionado | 20 | por equipo |
+| Revisión de equipo de aire acondicionado que no enfría | 25 | por revisión |
+| Cambio de cerradura existente | 25 | por cerradura |
+| Montaje de televisor en pared hasta 55 pulgadas | 35 | por televisor |
+| Montaje de una repisa o estantería sencilla | 25 | por unidad |
+| Ajuste sencillo de puerta o bisagras | 20 | por trabajo |
+| Pintura interior de pared | 4 | por m² de superficie pintada |
+| Visita de revisión general | 20 | por visita |
+
+La recarga de refrigerante se cotiza por separado tras la revisión: su costo depende del tipo y la cantidad de refrigerante. Para servicios no incluidos, trabajos complejos y recargos de urgencia, el equipo debe confirmar el presupuesto. No sumar automáticamente la visita a un servicio sin aclarar el descuento aplicable.
 
 ### Referencias orientativas de mercado
 
@@ -79,7 +111,7 @@ Investigación consultada el 11 de noviembre de 2026. Son ejemplos publicados, b
 | Climatización: mantenimiento de aire acondicionado residencial | 20 a 60 USD por equipo | Ejemplos publicados en Caracas en abril de 2026 para diferentes equipos y capacidades; el alcance del mantenimiento varía. [Referencia sobre climatización](https://2001online.com/servicios/por-caloron-revisan-aires-acondicionados-conozca-el-precio-del-mantenimiento-y-las-piezas-que-mas-se-danan-20264229300). |
 | Pintura interior | 3 a 6 USD por m² | Compilación nacional de noviembre de 2026; no es una medición exclusiva de Caracas. Preparación de superficie y materiales por confirmar. [Referencia sobre pintura](https://empresas.todoresuelto.com/ve/blog/cuanto-cobra-un-pintor-en-caracas-y-venezuela). |
 
-**Cómo debe responder el asistente:** si preguntan por costos, puede compartir la referencia de mercado correspondiente y su fecha, aclarando que no es una tarifa de Ricky ni un presupuesto. Para electricidad debe indicar que los datos son de 2024 y pueden estar desactualizados. Si preguntan cuánto cobra Ricky, si se incluyen materiales o por un trabajo sin referencia verificable, debe indicar que el precio se confirma tras evaluar el caso y ofrecer el teléfono 0212-645-79-05. No inventar montos para cableado, recarga de gas, montaje o reparaciones generales.
+**Uso de las referencias de mercado:** son antecedentes de investigación, no tarifas de Ricky. Para una pregunta sobre los precios de Ricky, usar la lista aprobada anterior; no sustituirla por referencias históricas. Para servicios que no estén en la lista aprobada, explicar que se requiere presupuesto y ofrecer el teléfono 0212-645-79-05.
 
 ## Plazos y disponibilidad
 
@@ -97,7 +129,7 @@ Investigación consultada el 11 de noviembre de 2026. Son ejemplos publicados, b
 
 ## Orientación para el futuro asistente
 
-- Responder en español de forma sencilla y basarse en la información confirmada de este documento. Las referencias de mercado publicadas se pueden comunicar con sus condiciones y fecha, sin atribuirlas como tarifas propias de Ricky ni identificar a proveedores concretos.
+- Responder en español de forma sencilla y basarse en la información confirmada de este documento. Comunicar las tarifas aprobadas de Ricky y sus condiciones. No atribuirle las referencias de mercado históricas ni identificar a proveedores concretos.
 - Si falta un dato, decir que debe confirmarlo el equipo y ofrecer los canales de contacto. No inventar precios, garantías, certificaciones, tiempos de llegada, disponibilidad ni condiciones.
 - Ante una urgencia, indicar que llame al 0212-645-79-05. No afirmar que una visita ya está confirmada ni sustituir a los servicios públicos de emergencia cuando exista peligro inmediato.
 - Solo recopilar los datos necesarios para atender la solicitud y explicar su uso conforme a la política de privacidad vigente. No solicitar contraseñas, datos bancarios ni información innecesaria.
@@ -107,7 +139,7 @@ Investigación consultada el 11 de noviembre de 2026. Son ejemplos publicados, b
 
 - Nombre legal, datos fiscales y responsable de la empresa.
 - Ubicación exacta en el mapa y cobertura detallada por zona.
-- Precios, costo de visita, recargos, medios de pago y garantías.
+- Recargos por urgencia, medios de pago y garantías.
 - Plazos de respuesta, horarios por canal y disponibilidad real de técnicos.
 - Dominio definitivo y dirección pública de la web.
 - Política de privacidad aplicable y datos de contacto para ejercer derechos sobre la información personal.
