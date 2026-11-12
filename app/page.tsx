@@ -7,6 +7,7 @@ import {
 import { ContactForm } from "./contact-form";
 import { RequestPlanner } from "./request-planner";
 import { RequestProvider } from "./request-context";
+import { ChatWidget } from "./chat-widget";
 import "./request-flow.css";
 import "./proceso.css";
 
@@ -88,5 +89,6 @@ export default function Home() {
     </div></section>
 
     <footer><div className="shell footer-grid"><div><Image src="/images/logo-ricky-multiservicios.png" alt="Ricky Multiservicios" width={186} height={52} /><p>Mantenimiento preventivo y reparaciones de emergencia en Caracas.</p></div><div><b>Contacto</b><a href="tel:+582126457905">0212-645-79-05</a><a href="https://wa.me/584143728363">WhatsApp 0414-372-83-63</a><a href="mailto:auribe.infosoft@gmail.com">auribe.infosoft@gmail.com</a></div><div><b>Enlaces</b><a href="/aviso-legal/">Aviso legal</a><a href="/politica-de-privacidad/">Política de privacidad</a><a href="/politica-de-cookies/">Política de cookies</a></div></div></footer>
+    <ChatWidget />
   </main></RequestProvider>;
 }
