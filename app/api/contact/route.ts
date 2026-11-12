@@ -4,7 +4,7 @@ export async function POST(request: Request) {
   let data: Record<string, unknown>;
   try { data = await request.json(); } catch { return NextResponse.json({ message: "Datos inválidos." }, { status: 400 }); }
   const value = (name: string) => typeof data[name] === "string" ? (data[name] as string).trim() : "";
-  if (!value("nombre") || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value("email")) || data.privacidad !== true || value("web")) {
+  if (!value("nombre") || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value("email")) || !value("telefono") || !value("mensaje") || data.privacidad !== true || value("web")) {
     return NextResponse.json({ message: "Revisa los campos obligatorios." }, { status: 400 });
   }
   const token = process.env.AIRTABLE_TOKEN;
