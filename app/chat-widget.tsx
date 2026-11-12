@@ -1,8 +1,9 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { IconMessageCircle, IconX } from "@tabler/icons-react";
+import { IconBrandWhatsapp, IconMessageCircle, IconX } from "@tabler/icons-react";
 import "./chat-widget.css";
+import "./whatsapp-bubble.css";
 
 type Message = { role: "user" | "assistant"; content: string };
 export function ChatWidget() {
@@ -31,6 +32,6 @@ export function ChatWidget() {
       <div className="chat-body" role="log" aria-live="polite"><p className="chat-bubble assistant">Hola, soy el asistente de Ricky Multiservicios. ¿En qué puedo ayudarte?</p><p className="chat-notice">Tus mensajes se envían a un proveedor de IA. Evita compartir datos sensibles. Este chat no registra solicitudes; usa el <a href="#formulario" onClick={() => setOpen(false)}>formulario de visita</a>.</p>{messages.map((message, index) => <p className={`chat-bubble ${message.role}`} key={index}>{message.content}</p>)}{busy && <p className="chat-bubble assistant">Escribiendo...</p>}{error && <p className="chat-error" role="alert">{error} <a href="tel:+582126457905">Llamar</a></p>}</div>
       <form className="chat-input" onSubmit={send}><label className="chat-sr-only" htmlFor="chat-message">Escribe tu pregunta</label><input id="chat-message" value={input} onChange={event => setInput(event.target.value)} maxLength={1000} placeholder="Escribe tu pregunta" disabled={busy}/><button type="submit" disabled={busy || !input.trim()}>Enviar</button></form>
     </section>}
-    <button className="chat-toggle" type="button" aria-expanded={open} aria-label={open ? "Cerrar chat" : "Abrir chat de Ricky"} onClick={() => setOpen(!open)}><IconMessageCircle size={23}/><span>¿Necesitas ayuda?</span></button>
+    <div className="floating-contact-actions"><button className="chat-toggle" type="button" aria-expanded={open} aria-label={open ? "Cerrar chat" : "Abrir chat de Ricky"} onClick={() => setOpen(!open)}><IconMessageCircle size={23}/><span>¿Necesitas ayuda?</span></button><a className="whatsapp-bubble" href="https://wa.me/584143728363" target="_blank" rel="noopener noreferrer" aria-label="Escribir a Ricky Multiservicios por WhatsApp, se abre en otra pestaña"><IconBrandWhatsapp size={27} aria-hidden="true"/><span>WhatsApp</span></a></div>
   </div>;
 }
